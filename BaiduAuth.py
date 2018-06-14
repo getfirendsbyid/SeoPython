@@ -25,7 +25,7 @@ else:
 print('正在连接FTP服务器')
 ftp = FTP()                         #设置变量
 ftp.set_debuglevel(2)             #打开调试级别2，显示详细信息
-ftp.connect(host, 21)          #连接的ftp sever和端口
+ftp.connect(host, 24)          #连接的ftp sever和端口
 ftp.login(root, password)      #连接的用户名，密码
 print(ftp.getwelcome())            #打印出欢迎信息
 
@@ -68,30 +68,19 @@ while 1:
             continue
         else:
             print('未添加过的域名')
-        print('后退浏览器')
-        driver.back()
-        print('再次点击添加网站')
-        time.sleep(2)
-        driver.find_element_by_id('site-add').click()
+        # print('后退浏览器')
+        # driver.back()
+        # print('再次点击添加网站')
+        # time.sleep(2)
+        # driver.find_element_by_id('site-add').click()
         print('确认域名领域')
         time.sleep(2)
-        driver.execute_script("document.getElementById('check1').checked = true;")
+        driver.execute_script("document.getElementById('check4').checked = true;")
+        driver.execute_script("document.getElementById('check5').checked = true;")
         driver.execute_script("document.getElementById('check9').checked = true;")
-        driver.execute_script("document.getElementById('check17').checked = true;")
         time.sleep(2)
         driver.find_element_by_id('sub-attr').click()
         print('开始下载验证文件')
-        while 1:
-            start = time.clock()
-            try:
-                driver.find_element_by_xpath("//dd[@id='file']/p[2]/a[1]").click()
-                print('已定位到元素')
-                end = time.clock()
-                break
-            except:
-                print("还未定位到元素!")
-        print('定位耗费时间：' + str(end - start))
-        time.sleep(1)
         while 1:
             try:
                 filename = os.listdir(localpath)
@@ -99,6 +88,19 @@ while 1:
                 break
             except:
                 print('还没定位到本地文件')
+
+        while 1:
+            start = time.clock()
+            try:
+                driver.find_element_by_xpath("//dd[@id='file']/p[2]/a[1]").click()
+                print('已定位到下载按钮')
+                end = time.clock()
+                break
+            except:
+                print("还未定位到下载按钮!")
+        print('定位耗费时间：' + str(end - start))
+        time.sleep(1)
+
         print('开始上传本地文件')
         bufsize = 1024  # 设置缓冲块大小
         file_handler = open(localpath + filename[0], 'rb')  # 以读模式在本地打开文件
