@@ -46,6 +46,7 @@ site_add = driver.find_element_by_id('site-add-btn')
 site_add.click()
 time.sleep(1)
 file = open(yuming)
+
 while 1:
     lines = file.readlines(100000)
     if not lines:
@@ -74,11 +75,11 @@ while 1:
         # time.sleep(2)
         # driver.find_element_by_id('site-add').click()
         print('确认域名领域')
-        time.sleep(2)
+        time.sleep(1)
         driver.execute_script("document.getElementById('check4').checked = true;")
         driver.execute_script("document.getElementById('check5').checked = true;")
         driver.execute_script("document.getElementById('check9').checked = true;")
-        time.sleep(2)
+        time.sleep(1)
         driver.find_element_by_id('sub-attr').click()
         print('开始下载验证文件')
         while 1:

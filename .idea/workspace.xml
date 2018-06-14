@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5559be4-e90b-4501-8c50-188a73a3fd17" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Seopython.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaiduSiteMap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShenmaAuth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShenmaSiteMap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pushtoken/cut_urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pushtoken/pase_url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pushtoken/post_all.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pushtoken/second_url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pushtoken/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/360Auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/360Auth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaiduAuth.py" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduAuth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaiduSonSitePull.py" beforeDir="false" afterPath="$PROJECT_DIR$/BaiduSonSitePull.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/driver/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/driver/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ftp.py" beforeDir="false" afterPath="$PROJECT_DIR$/ftp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuming/news_pre.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yuming/news_pre.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yuming/yuming.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yuming/yuming.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/down/baidu_verify_OBUZDPwzl4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/down/baidu_verify_l32fGvRYB7.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,11 +18,23 @@
       <file leaf-file-name="BaiduAuth.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BaiduAuth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="92" column="32" lean-forward="true" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+            <state relative-caret-position="271">
+              <caret line="135" column="10" lean-forward="true" selection-start-line="135" selection-start-column="10" selection-end-line="135" selection-end-column="10" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-                <marker date="1528942728977" expanded="true" signature="2492:2666" ph="..." />
+                <marker date="1528943445209" expanded="true" signature="2493:2667" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaiduSiteMap.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BaiduSiteMap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="21" lean-forward="true" selection-end-line="127" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +105,11 @@
             <path>
               <item name="Seopython" type="b2602c69:ProjectViewProjectNode" />
               <item name="Seopython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Seopython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Seopython" type="462c0819:PsiDirectoryNode" />
+              <item name="down" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Seopython" type="b2602c69:ProjectViewProjectNode" />
@@ -256,12 +255,12 @@
     <frame x="0" y="23" width="1280" height="723" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21640626" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21640626" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32511556" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32511556" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -304,7 +303,7 @@
           <caret line="75" column="7" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1528942728977" expanded="true" signature="2492:2666" ph="..." />
+            <marker date="1528943445209" expanded="true" signature="2493:2667" ph="..." />
           </folding>
         </state>
       </provider>
@@ -323,13 +322,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BaiduAuth.py">
+    <entry file="file://$PROJECT_DIR$/BaiduSiteMap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="92" column="32" lean-forward="true" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+        <state relative-caret-position="165">
+          <caret line="11" column="21" lean-forward="true" selection-end-line="127" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1528942728977" expanded="true" signature="2492:2666" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaiduAuth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="135" column="10" lean-forward="true" selection-start-line="135" selection-start-column="10" selection-end-line="135" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1528943445209" expanded="true" signature="2493:2667" ph="..." />
           </folding>
         </state>
       </provider>
